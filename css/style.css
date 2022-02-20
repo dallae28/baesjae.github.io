@@ -1,0 +1,63 @@
+/* selector {
+    property : value;
+} */
+:root {
+  --white-color: #fff;
+  --black-color: #140a00;
+}
+
+#login-form input {
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+}
+
+#todo-form input {
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+}
+.hidden {
+  display: none;
+}
+
+body {
+  text-align: center;
+  background-image: url("img/0.jpeg"), url("img/1.jpeg"), url("img/2.jpeg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,
+form,
+h2,
+#todo-list,
+#quote {
+}
+
+h1 {
+  font-size: 64px;
+}
+
+#login-form,
+h2 {
+  font-size: 32px;
+}
+
+#login-form {
+  margin-bottom: 32px;
+}
+
+#todo-form {
+  font-size: 24px;
+}
+
+#login-form input,
+#todo-form input {
+  width: 350px;
+  height: 50px;
+  font-size: 32px;
+}
